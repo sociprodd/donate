@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <!-- Métadonnées(Mots clés, description...) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="faire un don à une ONG, donate, donation">
+    <meta name="description" content="Vous avez plusieurs possibilités pour nous faire un don.">
+
+    <!-- Liens pointant vers les fichiers CSS -->
+    <link rel="stylesheet" href="assets/design/var.css">
+    <link rel="stylesheet" href="assets/design/components.css">
+    <link rel="stylesheet" href="assets/design/main.css">
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet" href="lib/tailwind.css">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Titre de la page -->
+    <title>Options</title>
+</head>
+
+<!-- Corps de la page -->
+<body>
+
+    <!-- Contenu du corps de la page -->
+    <nav class="fixed w-full bg-white top-0 border border-gray-200" id="nav" style="z-index:1000;">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="index.html" class="flex items-center align-middle">
+                <img src="assets/img/logo.png" alt="Logo" height="50" width="50">
+            </a>
+            <div class="flex md:order-2">
+                <div class="relative hidden mr-4 md:flex gap-8 align-middle items-center">
+                    <a href="PayPal.html" class="text-gray-800 hover:text-yellow-500 font-normal">PayPal</a>
+                    <a href="Donation.html" class="text-gray-800 hover:text-yellow-500 font-normal">Mobile Pay</a>
+                    <a href="bank.html" class="text-gray-800 hover:text-yellow-500 font-normal">Banque</a>
+                </div>
+                <div class="relative hidden md:block">
+                    <a href="https://sociprodd.com/" class="btn font-normal">Nos actualités</a>
+                </div>
+                <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden" aria-controls="navbar-search" aria-expanded="false">
+                    <span class="sr-only">Open menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="var(--bg)" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+                <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium font-bold md:flex-row md:space-x-8 md:mt-0">
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Options --> 
+    <section class="mt-0 pt-20 sm:pt-32 pb-32" id="category_section">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
+            <header class="text-left">
+                <h2 class="text-3xl font-bold sm:text-5xl">
+                    <b>De nombreuses possibilités</b>
+                </h2>
+                <p class="text-left text-gray-800 mt-5">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, pariatur. Non omnis illo, mollitia exercitationem totam esse nobis ut. Odit minima aut eum doloremque ullam facilis omnis atque laudantium expedita.
+                </p>
+            </header>
+            <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 mt-20">
+                <a href="Donation.html">
+                    <div class="h-40 rounded-lg bg-white p-10" id="option">
+                        <h3 class="font-bold text-2xl text-left">
+                            Paiement Mobile
+                        </h3>
+                        <p class="text-left mt-3">
+                            Orange Money, MTN Mobile Money, Express Union Mobile Money
+                        </p>
+                    </div>
+                </a>
+                <a href="PayPal.html">                
+                    <div class="h-40 rounded-lg bg-white p-5" id="option">
+                        <h3 class="font-bold text-2xl text-left">
+                            Banque en ligne
+                        </h3>
+                        <p class="text-left mt-3">
+                            Vous avez la possibilité de contribuer à travers: PayPal
+                        </p>
+                    </div>
+                </a>
+                <a href="bank.html">
+                    <div class="h-40 rounded-lg bg-white p-5" id="option">
+                        <h3 class="font-bold text-2xl text-left">
+                            Carte bancaire
+                        </h3>
+                        <p class="text-left mt-3">
+                            Vous la possibilité de nous faire un don à travers: Mastercard et Visa
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="block">
+            <p class="flex flex-wrap justify-center gap-3 text-white underline">
+                <a href="https://sociprodd.com/category/news/">Nos actualités</a>
+                <a href="https://sociprodd.com/qui-sommes-nous/">Qui sommes-nous</a>
+                <a href="https://sociprodd.com/">Notre équipe</a>
+                <a href="https://sociprodd.com/">Mentions légales</a>
+            </p>
+            <br>
+            <p class="text-1xl text-center text-white">&copy;2024. Tous droits reservés.</p>
+        </div>
+    </footer>
+    
+    <!-- Chemins d'accès menant vers les scripts JavaScript -->
+    <script src="lib/jquery.js"></script>
+    <script src="src/App.js"></script>
+    <script src="lib/vue.js"></script>
+</body>
+</html>

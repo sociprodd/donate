@@ -1,0 +1,10 @@
+:root
+{
+    --font: Montserrat;
+    --color: #040c12;
+    --bg: #1e5c8e;
+    --hover: #173e5e;
+    --white: #fff;
+    --radius: 50px;
+    --t: all 0.2s ease-in 0s;
+}

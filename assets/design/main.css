@@ -1,0 +1,44 @@
+/* Page */
+*
+{
+    font-family: var(--font);
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: var(--font);
+}
+
+#head
+{
+    background-image: linear-gradient(rgba(2, 10, 17, 0.88),
+    rgba(1, 4, 6, 0.901)),
+    url("../img/main.jpg");
+    height: 500px;
+    max-height: 1000px;
+}
+
+#option
+{
+    background-color: var(--bg);
+    border-radius: 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.3s ease-in 0s;
+    padding: 30px;
+    color: var(--white);
+}
+#option:hover 
+{
+    background-color: #f1f1f1;
+    color: var(--bg);
+    border: 1px solid transparent;
+    transform: scale(1.1);
+}
+
+footer
+{
+    background-color: var(--hover);
+    padding: 40px;
+}

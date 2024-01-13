@@ -1,0 +1,37 @@
+/* Boutons */
+.btn
+{
+    background-color: var(--bg);
+    border-radius: var(--radius);
+    color: var(--white);
+    padding: 9px 25px 9px 25px;
+    text-align: center;
+    transition: var(--t);
+}
+.btn:hover
+{
+    background-color: var(--hover);
+}
+.btn-light
+{
+    background-color: var(--bg);
+    border-radius: var(--radius);
+    border: 1.2px solid var(--white);
+    color: var(--white);
+    padding: 9px 25px 9px 25px;
+    text-align: center;
+    transition: var(--t);
+}
+.btn-light:hover
+{
+    background-color: var(--white);
+    color: var(--bg);
+    font-weight: bold;
+}
+
+/* Liens de la page(URL) */
+.link
+{
+    text-decoration: underline;
+    color: var(--hover);
+}
